@@ -1,0 +1,17 @@
+.header-back{
+    background-image: url('../img/contacto.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+}
+
+.border{
+    background-color:  #008996;
+    height: 5px;
+    width: 250px;
+}
+
+a.contacto{
+    color:  #008996;
+}
