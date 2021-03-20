@@ -9,6 +9,7 @@ body{
 h1, h2, h3, h4, h5, h6{
     font-size: 1.5vw;
     font-weight: bold;
+    color: #a1a1a1;
 }
 
 .galery{
@@ -61,7 +62,7 @@ a.activo{
     display: block;
     padding: 0;
     margin: 10px;
-    width: calc(25% - 20px);
+    width: calc(33.333333% - 20px);
 }
 
 .grid .item-conenido{
