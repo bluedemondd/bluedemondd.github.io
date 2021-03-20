@@ -1,13 +1,12 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
-    background-color: white;
-    color: black;
+    font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Lato', sans-serif;
-    font-size: 2.5vw;
+    font-size: 1.5vw;
+    font-weight: bold;
 }
 
 .galery{
@@ -15,13 +14,13 @@ h1, h2, h3, h4, h5, h6{
 }
 
 li{
-    color: #666666 !important;
+    color: black !important;
     list-style: none;
     line-height: 2;
 }
 
 a.activo{
-    color:black;
+    color: black;
     font-weight: bold;
 }
 
@@ -30,6 +29,21 @@ a.activo{
     width: 100%;
     opacity: 0;
     transition: opacity 0.5s linear 1s;
+}
+
+.pie{
+    font-size: 13px;
+    color: #a1a1a1;
+    letter-spacing: .5px;
+    line-height: 2;
+    position: fixed;
+    left: 50;
+    bottom: 0;
+    width: 250px;
+}
+
+.fixed{
+    position: fixed;
 }
 
 .grid.imagenes-cargadas{
@@ -41,7 +55,7 @@ a.activo{
     display: block;
     padding: 0;
     margin: 10px;
-    width: calc(33.3333333% - 20px);
+    width: calc(25% - 20px);
 }
 
 .grid .item-conenido{
@@ -107,8 +121,13 @@ a.activo{
         font-size: 45px;
     }
 
-    .main{
+    .main, .pie{
         text-align: center;
+        width: 100%;
+    }
+
+    .pie, .fixed{
+        position: initial;
     }
 }
 
