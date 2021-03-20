@@ -2,6 +2,8 @@ body{
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 400;
+    background: #0c0c0c;
+    color: white;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -14,14 +16,18 @@ h1, h2, h3, h4, h5, h6{
 }
 
 li{
-    color: black !important;
+    color: white !important;
     list-style: none;
     line-height: 2;
 }
 
+a, a:hover{
+    color: #a1a1a1;
+}
+
 a.activo{
-    color: black;
-    font-weight: bold;
+    color: white;
+    text-decoration: underline;
 }
 
 .grid{
@@ -92,13 +98,14 @@ a.activo{
 }
 
 .overlay .descripcion{
-    display: block;
+    /*display: block;
     background-color: #ffffff;
     padding: 20px;
     text-align: center;
     margin-top: 10px;
     border-radius: 10px;
     max-width: 50%;
+    color: #a1a1a1;*/
 }
 
 .contenedor-img{
