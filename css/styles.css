@@ -98,16 +98,17 @@ a.activo{
     max-width: 100%;
 }
 
+/*
 .overlay .descripcion{
-    /*display: block;
+    display: block;
     background-color: #ffffff;
     padding: 20px;
     text-align: center;
     margin-top: 10px;
     border-radius: 10px;
     max-width: 50%;
-    color: #a1a1a1;*/
-}
+    color: #a1a1a1;
+}*/
 
 .contenedor-img{
     position: relative;
